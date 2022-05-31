@@ -618,6 +618,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] is_empty()
         - [ ] at(index) - returns item at given index, blows up if index out of bounds
         - [ ] push(item)
+		- used this comment to code this: https://stackoverflow.com/a/5680458
         - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
         - [ ] prepend(item) - can use insert above at index 0
         - [ ] pop() - remove from end, return value
