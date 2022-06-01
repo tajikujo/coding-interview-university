@@ -620,10 +620,12 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] push(item)
 		- used this comment to code this: https://stackoverflow.com/a/5680458
         - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
+        	- https://stackoverflow.com/questions/11638123/how-to-add-an-element-to-array-and-shift-indexes
         - [ ] prepend(item) - can use insert above at index 0
         - [ ] pop() - remove from end, return value
         - [ ] delete(index) - delete item at index, shifting all trailing elements left
         - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
+        	- https://www.geeksforgeeks.org/remove-all-occurrences-of-an-element-from-array-in-java/
         - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
         - [ ] resize(new_capacity) // private function
             - when you reach capacity, resize to double the size
